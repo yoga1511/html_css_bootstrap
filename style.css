@@ -1,0 +1,111 @@
+body{
+    background-color:#1f2937;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    font-family:Arial, sans-serif;
+}
+
+.login-card,
+.register-card{
+
+    width:520px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0px 10px 30px rgba(0,0,0,0.2);
+
+}
+.login-card h1{
+
+    font-size:48px;
+
+    font-weight:700;
+
+}
+.login-card p{
+
+    margin-bottom:25px;
+
+}
+.login-card p:last-child{
+
+    text-align:center;
+
+}
+.form-control{
+
+    margin-bottom:20px;
+
+}
+
+.password-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:10px;
+
+}
+.logo{
+    width:64px;
+    height:64px;
+    background:#4F86F7;
+    border-radius:16px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    row-gap:2px;
+
+    margin-bottom:28px;
+}
+
+.row1,
+.row2{
+    display:flex;
+    column-gap:2px;
+}
+
+.dot{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    background:#AFC8FF;
+}
+
+.active{
+    background:#FFFFFF;
+}
+
+.remember-me{
+
+    margin-bottom:20px;
+
+}
+.btn{
+
+    margin-top:10px;
+
+}
+.btn{
+    border-radius:10px;
+}
+.login-card .signup-text{
+    text-align: center;
+}
